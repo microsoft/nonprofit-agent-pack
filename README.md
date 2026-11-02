@@ -1,4 +1,4 @@
-<p align="center"><img src=".github/images/banner.png" width="100%" alt="Microsoft Elevate. Nonprofit Agent Pack: six sample Copilot Studio agents for nonprofit work."></p>
+<p align="center"><img src=".github/images/banner.png" width="100%" alt="Nonprofit Agent Pack: six sample Copilot Studio agents for nonprofit work."></p>
 
 Agents for grant proposals, impact reports, agreement review, AI policy, IT help, and board packets. Each one works on your own documents and produces drafts for you to review. From Microsoft Elevate.
 
