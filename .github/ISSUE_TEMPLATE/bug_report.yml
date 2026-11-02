@@ -1,0 +1,34 @@
+name: Problem with an agent
+description: Something an agent did wrong, or a step that didn't work
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Don't include personal or confidential data.** No client, donor, staff, or minor information, and no screenshots of real documents. Use the fictional DEMO files or describe the problem in general terms. Report security vulnerabilities as described in SECURITY.md, not here.
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Agent
+      options: [Grant Proposal Studio, Impact Report Builder, Agreement Reviewer, AI Policy Coach, IT Help Desk, Board Packet Builder, Install or import, Skills, Other]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Shown in the README and in the solution's version in Copilot Studio (for example 1.0.7).
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What you asked and what happened
+      description: The prompt you used (without personal data), what you expected, and what the agent did.
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where you used the agent
+      options: [Copilot Studio test chat, Teams, Microsoft 365 Copilot, Other]

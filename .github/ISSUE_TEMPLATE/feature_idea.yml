@@ -1,0 +1,15 @@
+name: Idea or improvement
+description: Suggest a better playbook step, a new agent, or a documentation fix
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Don't include personal or confidential data.**
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should change, and how it would help nonprofit staff.
+    validations:
+      required: true

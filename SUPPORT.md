@@ -1,25 +1,19 @@
-# TODO: The maintainer of this repo has not yet edited this file
-
-**REPO OWNER**: Do you want Customer Service & Support (CSS) support for this product/project?
-
-- **No CSS support:** Fill out this template with information about how to file issues and get help.
-- **Yes CSS support:** Fill out an intake form at [aka.ms/onboardsupport](https://aka.ms/onboardsupport). CSS will work with/help you to determine next steps.
-- **Not sure?** Fill out an intake as though the answer were "Yes". CSS will help you decide.
-
-*Then remove this first heading from this SUPPORT.MD file before publishing your repo.*
-
 # Support
 
-## How to file issues and get help  
+## How to get help
 
-This project uses GitHub Issues to track bugs and feature requests. Please search the existing 
-issues before filing new issues to avoid duplicates.  For new issues, file your bug or 
-feature request as a new Issue.
+This project uses GitHub Issues to track bugs and suggestions. Search existing issues before you file a new one. To report a problem, open a new issue with the agent name, the version, what you asked, and what happened. Don't include confidential or personal data.
 
-For help and questions about using this project, please **REPO MAINTAINER: INSERT INSTRUCTIONS HERE 
-FOR HOW TO ENGAGE REPO OWNERS OR COMMUNITY FOR HELP. COULD BE A STACK OVERFLOW TAG OR OTHER
-CHANNEL. WHERE WILL YOU HELP PEOPLE?**.
+For help deciding whether these agents fit your organization, or with licensing and Copilot Studio capacity, contact your Microsoft representative or partner.
 
-## Microsoft Support Policy  
+## What to expect
 
-Support for this **PROJECT or PRODUCT** is limited to the resources listed above.
+- **Response time:** maintainers aim to acknowledge new issues within 10 business days. A fix may take longer, and pull requests may take longer to review.
+- **Supported version:** only the latest release is maintained. Before you file an issue, check that you're on the latest version in the [change log](CHANGELOG.md).
+- **Updates:** the agents are updated periodically, as time allows, to fix problems and keep pace with Copilot Studio changes. Each release is listed in the change log and on the Releases page.
+- **Security:** report security issues as described in [SECURITY.md](SECURITY.md), not in public issues.
+- **End of updates:** when the agents are no longer maintained, this repository will be archived. Archived agents can still be downloaded and used, but won't be updated.
+
+## Microsoft Support Policy
+
+These are sample agents provided as-is. Support is limited to the resources listed above, on a best-effort basis. The support terms for Microsoft Copilot Studio and other Microsoft products don't extend to this repository.
