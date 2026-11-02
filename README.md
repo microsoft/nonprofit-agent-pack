@@ -30,7 +30,7 @@ Get the files from the [latest release](https://github.com/microsoft/nonprofit-a
 | <img src=".github/images/icons/agreement-reviewer.png" width="24" height="24" alt=""> | [Agreement&nbsp;Reviewer](downloads/NonprofitAgentPack_AgreementReviewer.zip) | This agent only. Import it as-is. |
 | <img src=".github/images/icons/ai-policy-coach.png" width="24" height="24" alt=""> | [AI&nbsp;Policy&nbsp;Coach](downloads/NonprofitAgentPack_AIPolicyCoach.zip) | This agent only. Import it as-is. |
 | <img src=".github/images/icons/it-help-desk.png" width="24" height="24" alt=""> | [IT&nbsp;Help&nbsp;Desk](downloads/NonprofitAgentPack_ITHelpDesk.zip) | This agent only. Import it as-is. |
-| <img src=".github/images/icons/board-packet-builder.png" width="24" height="24" alt=""> | [Board&nbsp;Packet&nbsp;Builder](downloads/NonprofitAgentPack_BoardPacketBuilder.zip) | This agent only (GitHub Copilot harness). Import it as-is. |
+| <img src=".github/images/icons/board-packet-builder.png" width="24" height="24" alt=""> | [Board&nbsp;Packet&nbsp;Builder](downloads/NonprofitAgentPack_BoardPacketBuilder.zip) | This agent only (Microsoft Copilot harness). Import it as-is. |
 
 Never unzip an agent's own `.zip` file: Copilot Studio imports it as-is. If a link opens a file page instead of downloading, select **Download raw file** (the download icon).
 
@@ -61,7 +61,7 @@ Every agent follows a written method (its playbook files), cites its sources, sh
 | The System Customizer or System Administrator role in that environment | It's required to import solutions. | [Import agents](https://learn.microsoft.com/microsoft-copilot-studio/authoring-solutions-import-export) |
 | Copilot Studio access and Copilot credits | The agents use credits as described in "What it costs". | [Licensing](https://learn.microsoft.com/microsoft-copilot-studio/billing-licensing) |
 | Code interpreter turned on for the environment. It's off by default; a Power Platform admin turns it on. | It creates the Word, Excel, and calendar files. | [Code interpreter](https://learn.microsoft.com/microsoft-copilot-studio/code-interpreter-for-prompts) |
-| Board Packet Builder only: external models turned on for the environment, and Anthropic allowed as an AI provider in the Microsoft 365 admin center | It runs on an Anthropic Claude model on the GitHub Copilot harness. | [External model controls](https://learn.microsoft.com/microsoft-copilot-studio/agents-experience/authoring-select-agent-model), [Anthropic models](https://learn.microsoft.com/microsoft-365/copilot/connect-to-ai-subprocessor) |
+| Board Packet Builder only: external models turned on for the environment, and Anthropic allowed as an AI provider in the Microsoft 365 admin center | It runs on an Anthropic Claude model on the Microsoft Copilot harness. Copilot Studio and Microsoft Learn still label this harness GitHub Copilot. | [External model controls](https://learn.microsoft.com/microsoft-copilot-studio/agents-experience/authoring-select-agent-model), [Anthropic models](https://learn.microsoft.com/microsoft-365/copilot/connect-to-ai-subprocessor), [Microsoft Copilot harness](https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/) |
 | OneDrive for each person who uses the agents | Generated files open from Microsoft 365 storage. | |
 
 No connectors, flows, environment variables, or custom tables are needed.
@@ -70,7 +70,7 @@ No connectors, flows, environment variables, or custom tables are needed.
 
 - Copilot Studio measures use in Copilot credits ([billing rates](https://learn.microsoft.com/microsoft-copilot-studio/requirements-messages-management)).
 - Five agents run on the standard harness. Testing them in Copilot Studio's test chat doesn't use credits. When people with a Microsoft 365 Copilot license use them in Teams or Microsoft 365 Copilot, use is generally covered by that license; other use draws credits ([who pays](https://learn.microsoft.com/power-platform/admin/manage-usage-github-copilot-harness)).
-- Board Packet Builder runs on the GitHub Copilot harness, which uses credits on every run, including tests, for every user ([GitHub Copilot harness billing](https://learn.microsoft.com/microsoft-copilot-studio/agents-experience/billing-credit-overview)). In October 2026 tests, the full sample packet used about 156 to 184 credits and took 5 to 17 minutes; single questions used about 8 to 55 credits. Credits for a chat can keep rising for a short time after it ends. Your results will vary.
+- Board Packet Builder runs on the Microsoft Copilot harness, which uses credits on every run, including tests, for every user ([billing for this harness](https://learn.microsoft.com/microsoft-copilot-studio/agents-experience/billing-credit-overview)). In October 2026 tests, the full sample packet used about 156 to 184 credits and took 5 to 17 minutes; single questions used about 8 to 55 credits. Credits for a chat can keep rising for a short time after it ends. Your results will vary.
 - Set a credit limit for each agent and check usage in the Power Platform admin center. Limits can take some time to apply ([manage credits](https://learn.microsoft.com/power-platform/admin/manage-copilot-studio-copilot-credits-capacity)).
 
 ## Your data
@@ -151,7 +151,7 @@ Sample agents provided as-is under the MIT License, without warranty or support 
 
 ## For builders
 
-- **[skills](skills)** packages each agent's method as an [Agent Skill](https://learn.microsoft.com/microsoft-copilot-studio/agents-experience/skills-overview), plus `board-packet-standard` and `nonprofit-financial-dashboard`. Upload a skill's `.zip` to an agent on the GitHub Copilot harness, or read its `SKILL.md` to reuse the method elsewhere.
+- **[skills](skills)** packages each agent's method as an [Agent Skill](https://learn.microsoft.com/microsoft-copilot-studio/agents-experience/skills-overview), plus `board-packet-standard` and `nonprofit-financial-dashboard`. Upload a skill's `.zip` to an agent on the Microsoft Copilot harness, or read its `SKILL.md` to reuse the method elsewhere.
 - **[samples/board-packet-builder](samples/board-packet-builder)** has the four fictional board files and `evaluation.csv`, a 20-case test set. Import it on Board Packet Builder's **Evaluate** tab to check the agent after you customize it.
 - **[RESPONSIBLE_AI.md](RESPONSIBLE_AI.md)** describes intended uses, limitations, and data handling. **[CHANGELOG.md](CHANGELOG.md)** lists changes by version.
 
