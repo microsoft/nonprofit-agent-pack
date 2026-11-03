@@ -6,6 +6,8 @@ First public release.
 
 - **All agents:** each greeting says the agent is AI and can make mistakes, and asks you to review what it creates. Greetings, descriptions, and instructions no longer overstate results; for example, "a winning plan" is now "a stronger plan", and files are described as drafts for you to review.
 - **AI Policy Coach:** the sample produces the full policy and governance plan in one reply.
+- **Impact Report Builder:** headlines, summaries, and donor copy no longer credit the program for an outcome unless the data includes a comparison group; they describe what was measured instead.
+- **Five standard agents:** if someone says they might harm themselves or others, the agent replies with care and points to 988 (US and Canada) or local emergency services instead of declining. The message shown when you ask for a person also lists these lines.
 - **Board Packet Builder:** memory is off by default; a maker can turn it on from the agent's **Build** tab. If you upgrade from an earlier version, memory turns off: stored memories aren't deleted, but the agent stops using them. New icon.
 - **Docs:** install steps now say to select **Publish** after you import, because an upgrade doesn't publish the five standard agents. Code interpreter is described as an environment setting, and the Teams steps include **Add channel**. Web search and IT Help Desk's Microsoft Support and Learn pages work through Bing, which has its own data terms; this is now explained in "Your data" and the Responsible AI notes. Board Packet Builder's harness is now called the Microsoft Copilot harness; Copilot Studio and Microsoft Learn still label it GitHub Copilot. The README adds images, example outputs, and who the pack is for.
 
