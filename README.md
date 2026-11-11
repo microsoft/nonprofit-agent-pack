@@ -8,13 +8,20 @@ Built for US nonprofits, in English. Organizations in other countries can use th
 
 ## Example outputs
 
-The agents made these files from the fictional sample data. Select an image to see it full size.
+The agents made these from the fictional sample data. Select an image to see it full size.
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href=".github/images/examples/agreement-reviewer-obligations.png"><img src=".github/images/examples/agreement-reviewer-obligations.png" width="100%" alt="Agreement Reviewer's Excel obligations register, listing each obligation with its clause, a short quote, its type, and its due date."></a><br><b>Agreement Reviewer:</b> obligations register (Excel)</td>
-<td width="33%" valign="top"><a href=".github/images/examples/impact-report-builder-report.png"><img src=".github/images/examples/impact-report-builder-report.png" width="100%" alt="The first page of Impact Report Builder's Word funder report, with a summary and a results versus targets table."></a><br><b>Impact Report Builder:</b> funder report (Word)</td>
-<td width="33%" valign="top"><a href=".github/images/examples/board-packet-builder-dashboard.png"><img src=".github/images/examples/board-packet-builder-dashboard.png" width="100%" alt="Board Packet Builder's Excel financial dashboard, showing the change in net assets, months of cash, and the calculation behind each number."></a><br><b>Board Packet Builder:</b> financial dashboard (Excel)</td>
+<td width="50%" valign="top"><a href=".github/images/examples/grant-proposal-studio-outline.png"><img src=".github/images/examples/grant-proposal-studio-outline.png" width="100%" alt="Grant Proposal Studio's Word proposal outline for the sample foundation grant: applicant details, an executive summary that marks facts to verify with [ADD: ...], and the statement of need with its scoring criteria."></a><br><b>Grant Proposal Studio:</b> a proposal outline mapped to the funder's scoring criteria, with <code>[ADD: ...]</code> where facts are missing (Word)</td>
+<td width="50%" valign="top"><a href=".github/images/examples/impact-report-builder-missing-evidence.png"><img src=".github/images/examples/impact-report-builder-missing-evidence.png" width="100%" alt="Impact Report Builder's missing evidence register from the Word funder report: each claim the data can't support, why, what evidence would support it, and safer wording to use instead."></a><br><b>Impact Report Builder:</b> the claims your data can't support, each with safer wording (Word)</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href=".github/images/examples/agreement-reviewer-risk-flags.png"><img src=".github/images/examples/agreement-reviewer-risk-flags.png" width="100%" alt="Agreement Reviewer's Excel risk flags for the sample grant agreement: each part of the agreement, what it says, and a High, Medium, or Low risk rating."></a><br><b>Agreement Reviewer:</b> risk flags for each part of a grant agreement, rated High, Medium, or Low (Excel)</td>
+<td width="50%" valign="top"><a href=".github/images/examples/ai-policy-coach-sample-policy.png"><img src=".github/images/examples/ai-policy-coach-sample-policy.png" width="100%" alt="AI Policy Coach in the Copilot Studio test chat: the start of a sample AI acceptable use policy for a fictional nonprofit, covering purpose and scope, approved tools, and data rules, with source citations."></a><br><b>AI Policy Coach:</b> a sample AI policy for a fictional nonprofit, with approved tools and data rules (chat)</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href=".github/images/examples/it-help-desk-authenticator.png"><img src=".github/images/examples/it-help-desk-authenticator.png" width="100%" alt="IT Help Desk in the Copilot Studio test chat: numbered steps to set up Authenticator on a new phone when the old phone is gone, a placeholder for the IT contact, the source it used, and an offer to write an IT ticket summary. It doesn't ask for a password or code."></a><br><b>IT Help Desk:</b> safe, numbered steps when the Authenticator app is on a lost phone, with its source (chat)</td>
+<td width="50%" valign="top"><a href=".github/images/examples/board-packet-builder-slides.png"><img src=".github/images/examples/board-packet-builder-slides.png" width="100%" alt="A Board Packet Builder slide comparing year-to-date program results with FY2027 targets in a bar chart and a table, with a note on the late fall cohort."></a><br><b>Board Packet Builder:</b> board slides with program results against targets (PowerPoint)</td>
 </tr>
 </table>
 
