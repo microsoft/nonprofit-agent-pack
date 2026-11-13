@@ -6,22 +6,25 @@ Built for US nonprofits, in English. Organizations in other countries can use th
 
 **Version 1.0.7** · Sample agents provided as-is under the [MIT License](LICENSE.txt) · Maintained on a best-effort basis ([support](SUPPORT.md))
 
+> [!IMPORTANT]
+> **Known limitation (v1.0.7):** Grant Proposal Studio, Impact Report Builder, Agreement Reviewer, and AI Policy Coach can show Download links that don't open, especially in Teams and Microsoft 365 Copilot. The full results are in the chat; copy them into Word or Excel. A fix is coming in v1.0.8.
+
 ## Example outputs
 
-The agents made these from the fictional sample data. Select an image to see it full size.
+The agents made these in Microsoft 365 Copilot from the fictional sample data. Select an image to see it full size.
 
 <table>
 <tr>
-<td width="50%" valign="top"><a href=".github/images/examples/grant-proposal-studio-outline.png"><img src=".github/images/examples/grant-proposal-studio-outline.png" width="100%" alt="Grant Proposal Studio's Word proposal outline for the sample foundation grant: applicant details, an executive summary that marks facts to verify with [ADD: ...], and the statement of need with its scoring criteria."></a><br><b>Grant Proposal Studio:</b> a proposal outline mapped to the funder's scoring criteria, with <code>[ADD: ...]</code> where facts are missing (Word)</td>
-<td width="50%" valign="top"><a href=".github/images/examples/impact-report-builder-missing-evidence.png"><img src=".github/images/examples/impact-report-builder-missing-evidence.png" width="100%" alt="Impact Report Builder's missing evidence register from the Word funder report: each claim the data can't support, why, what evidence would support it, and safer wording to use instead."></a><br><b>Impact Report Builder:</b> the claims your data can't support, each with safer wording (Word)</td>
+<td width="50%" valign="top"><a href=".github/images/examples/grant-proposal-studio-compliance-matrix.png"><img src=".github/images/examples/grant-proposal-studio-compliance-matrix.png" width="100%" alt="Grant Proposal Studio in Microsoft 365 Copilot: a compliance matrix for the sample RFP. Each requirement has its RFP section, where the proposal addresses it, a status of Ready or Missing, an owner, and notes that mark facts to confirm with [ADD: ...]."></a><br><b>Grant Proposal Studio:</b> a compliance matrix that maps each RFP requirement to the proposal, with its status, owner, and <code>[ADD: ...]</code> where facts are missing</td>
+<td width="50%" valign="top"><a href=".github/images/examples/impact-report-builder-unsupported-claims.png"><img src=".github/images/examples/impact-report-builder-unsupported-claims.png" width="100%" alt="Impact Report Builder in Microsoft 365 Copilot: four claims the sample data can't support, such as that the program caused participants to find jobs. Each has why it's unsupported, the evidence needed, and safer wording to use instead."></a><br><b>Impact Report Builder:</b> the claims your data can't support, each with safer wording</td>
 </tr>
 <tr>
-<td width="50%" valign="top"><a href=".github/images/examples/agreement-reviewer-risk-flags.png"><img src=".github/images/examples/agreement-reviewer-risk-flags.png" width="100%" alt="Agreement Reviewer's Excel risk flags for the sample grant agreement: each part of the agreement, what it says, and a High, Medium, or Low risk rating."></a><br><b>Agreement Reviewer:</b> risk flags for each part of a grant agreement, rated High, Medium, or Low (Excel)</td>
-<td width="50%" valign="top"><a href=".github/images/examples/ai-policy-coach-sample-policy.png"><img src=".github/images/examples/ai-policy-coach-sample-policy.png" width="100%" alt="AI Policy Coach in the Copilot Studio test chat: the start of a sample AI acceptable use policy for a fictional nonprofit, covering purpose and scope, approved tools, and data rules, with source citations."></a><br><b>AI Policy Coach:</b> a sample AI policy for a fictional nonprofit, with approved tools and data rules (chat)</td>
+<td width="50%" valign="top"><a href=".github/images/examples/agreement-reviewer-obligations.png"><img src=".github/images/examples/agreement-reviewer-obligations.png" width="100%" alt="Agreement Reviewer in Microsoft 365 Copilot: the obligations register for the sample grant agreement. Each obligation has an ID, the clause it comes from, a due date, an owner, and a risk rating."></a><br><b>Agreement Reviewer:</b> obligations from a grant agreement, each with its clause, due date, owner, and risk</td>
+<td width="50%" valign="top"><a href=".github/images/examples/ai-policy-coach-sample-policy.png"><img src=".github/images/examples/ai-policy-coach-sample-policy.png" width="100%" alt="AI Policy Coach in Microsoft 365 Copilot: the start of a draft AI acceptable use policy for a fictional nonprofit, with its risk posture, AI lead, and review date, then sections on purpose and scope, approved tools, and data rules, with citations to its playbook files."></a><br><b>AI Policy Coach:</b> a sample AI policy for a fictional nonprofit, with approved tools and data rules</td>
 </tr>
 <tr>
-<td width="50%" valign="top"><a href=".github/images/examples/it-help-desk-authenticator.png"><img src=".github/images/examples/it-help-desk-authenticator.png" width="100%" alt="IT Help Desk in the Copilot Studio test chat: numbered steps to set up Authenticator on a new phone when the old phone is gone, a placeholder for the IT contact, the source it used, and an offer to write an IT ticket summary. It doesn't ask for a password or code."></a><br><b>IT Help Desk:</b> safe, numbered steps when the Authenticator app is on a lost phone, with its source (chat)</td>
-<td width="50%" valign="top"><a href=".github/images/examples/board-packet-builder-slides.png"><img src=".github/images/examples/board-packet-builder-slides.png" width="100%" alt="A Board Packet Builder slide comparing year-to-date program results with FY2027 targets in a bar chart and a table, with a note on the late fall cohort."></a><br><b>Board Packet Builder:</b> board slides with program results against targets (PowerPoint)</td>
+<td width="50%" valign="top"><a href=".github/images/examples/it-help-desk-authenticator.png"><img src=".github/images/examples/it-help-desk-authenticator.png" width="100%" alt="IT Help Desk in Microsoft 365 Copilot: for someone whose Authenticator app is on a phone they no longer have, numbered steps to set it up on a new phone, the sources it used, a placeholder for the IT contact, and a follow-up question. It doesn't ask for a password or code."></a><br><b>IT Help Desk:</b> safe, numbered steps when the Authenticator app is on a lost phone, with its sources</td>
+<td width="50%" valign="top"><a href=".github/images/examples/board-packet-builder-dashboard.png"><img src=".github/images/examples/board-packet-builder-dashboard.png" width="100%" alt="Board Packet Builder in Microsoft 365 Copilot: results for the sample nonprofit, including the net result, 2.1 months of cash against a 3-month target, and five budget lines over the alert threshold. At the end of the reply is a file card for the Excel dashboard."></a><br><b>Board Packet Builder:</b> results against budget with flagged variances, and the Excel dashboard as a file to download</td>
 </tr>
 </table>
 
@@ -51,12 +54,14 @@ New to Copilot Studio? Start with **Agreement Reviewer** or **Grant Proposal Stu
 
 | Agent | Helps when | You upload | You get |
 |---|---|---|---|
-| **Grant Proposal Studio** | Proposals take too long | A funder's RFP or guidelines | Compliance matrix, outline mapped to the scoring criteria, drafted sections, rubric score with the top 3 fixes, funder research, Word and Excel files |
-| **Impact Report Builder** | Funders want outcomes, not activities | Program notes, outcome data, or surveys | Results vs targets, an evidence register for every claim, the claims your data can't support, a Word report |
-| **Agreement Reviewer** | You just got awarded | A grant agreement, contract, subaward, or MOU | Obligations with calculated due dates, risk flags, questions for the funder, an Excel workbook, an Outlook calendar file |
-| **AI Policy Coach** | Staff are already using AI | Nothing, or your current policy | Answers about safe AI use, data rules, a two-page policy or a gap check, a governance plan, a 90-day rollout, a Word document |
+| **Grant Proposal Studio** | Proposals take too long | A funder's RFP or guidelines | Compliance matrix, eligibility risks, an outline mapped to the scoring criteria, drafted sections, a rubric score with the top 3 fixes, funder research |
+| **Impact Report Builder** | Funders want outcomes, not activities | Program notes, outcome data, or surveys | A draft funder report with results vs targets, an evidence register for every claim, and the claims your data can't support, with safer wording |
+| **Agreement Reviewer** | You just got awarded | A grant agreement, contract, subaward, or MOU | A board summary, obligations with calculated due dates, risk flags, questions for the funder |
+| **AI Policy Coach** | Staff are already using AI | Nothing, or your current policy | Answers about safe AI use, data rules, a two-page policy or a gap check, a governance plan, a 90-day rollout |
 | **IT Help Desk** | IT is one person, or no one | Nothing (add your IT procedures later) | Short numbered fixes, security triage, IT ticket summaries |
 | **Board Packet Builder** (advanced) | Board prep takes a week | Financials, ED report, committee notes, prior minutes | A Word board packet, slide deck, and Excel dashboard with flagged variances, months of cash, consent agenda, and motions, all with matching numbers |
+
+Grant Proposal Studio, Impact Report Builder, Agreement Reviewer, and AI Policy Coach give their results in the chat, ready to copy into Word or Excel. Board Packet Builder creates the files for you.
 
 Every agent follows a written method (its playbook files), cites its sources, shows `[ADD: ...]` instead of inventing facts, and declines requests outside its job. Agents can still make mistakes, so review everything they produce.
 
@@ -67,7 +72,7 @@ Every agent follows a written method (its playbook files), cites its sources, sh
 | A Power Platform environment with Dataverse. A sandbox is best for trying the agents. | Agents are imported as Power Platform solutions. | [Create an environment](https://learn.microsoft.com/power-platform/admin/create-environment) |
 | The System Customizer or System Administrator role in that environment | It's required to import solutions. | [Import agents](https://learn.microsoft.com/microsoft-copilot-studio/authoring-solutions-import-export) |
 | Copilot Studio access and Copilot credits | The agents use credits as described in "What it costs". | [Licensing](https://learn.microsoft.com/microsoft-copilot-studio/billing-licensing) |
-| Code interpreter turned on for the environment. It's off by default; a Power Platform admin turns it on. | It creates the Word, Excel, and calendar files. | [Code interpreter](https://learn.microsoft.com/microsoft-copilot-studio/code-interpreter-for-prompts) |
+| Optional: code interpreter turned on for the environment. It's off by default; a Power Platform admin turns it on. | Four agents use it to try to create Word, Excel, and calendar files. In v1.0.7 those files often don't open (see "Troubleshooting"); the results are in the chat either way. | [Code interpreter](https://learn.microsoft.com/microsoft-copilot-studio/code-interpreter-for-prompts) |
 | Board Packet Builder only: external models turned on for the environment, and Anthropic allowed as an AI provider in the Microsoft 365 admin center | It runs on an Anthropic Claude model on the Microsoft Copilot harness. Copilot Studio and Microsoft Learn still label this harness GitHub Copilot. | [External model controls](https://learn.microsoft.com/microsoft-copilot-studio/agents-experience/authoring-select-agent-model), [Anthropic models](https://learn.microsoft.com/microsoft-365/copilot/connect-to-ai-subprocessor), [Microsoft Copilot harness](https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/) |
 | OneDrive for each person who uses the agents | Generated files open from Microsoft 365 storage. | |
 
@@ -95,7 +100,8 @@ No connectors, flows, environment variables, or custom tables are needed.
 2. Select **More options** (**...**) in the left menu, then **Solutions**. Solutions opens in a new tab. If a welcome screen or message appears, close it or select **Get Started** or **Skip**.
 3. Select **Import solution** > **Browse**, choose one agent's `.zip` (from the **Agents** folder of the full pack), then select **Next** > **Import**. A note that the solution came from a "Full" environment is expected.
 4. Wait for "imported successfully" (usually under a minute). Open the agent from **Agents** and select **Publish**.
-5. To use it in Teams and Microsoft 365 Copilot, open the agent, go to **Channels** > **Teams and Microsoft 365 Copilot**, and select **Add channel**. Then share it with a security group ([standard agents](https://learn.microsoft.com/microsoft-copilot-studio/admin-share-bots), [Board Packet Builder](https://learn.microsoft.com/microsoft-copilot-studio/agents-experience/authoring-share-agent)). To show it to everyone in your organization, your admin must approve it ([Teams and Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams)).
+5. To use it in Teams and Microsoft 365 Copilot, open the agent, go to **Channels** > **Teams and Microsoft 365 Copilot**, and select **Add channel**. On a standard agent, select **Edit details** and write a short and long description of what the agent does. Select **More**, replace "Your developer name" with your organization's name, and select **Save**. People see these details when they find the agent ([agent details](https://learn.microsoft.com/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#customize-the-appearance-of-an-agent-for-teams-and-microsoft-copilot)).
+6. Share it with a security group ([standard agents](https://learn.microsoft.com/microsoft-copilot-studio/admin-share-bots), [Board Packet Builder](https://learn.microsoft.com/microsoft-copilot-studio/agents-experience/authoring-share-agent)). To show it to everyone in your organization, your admin must approve it ([Teams and Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams)).
 
 A new agent may show "1 warning: No evaluation has been run". That's expected; see "Make it yours".
 
@@ -105,9 +111,9 @@ See a finished result before you use your own files. In Copilot Studio, select *
 
 | Agent | Try this | A good result |
 |---|---|---|
-| Grant Proposal Studio | "Using the sample RFP and program brief, build the compliance matrix, list eligibility risks, and outline the proposal against the scoring criteria. Then create the Word outline and Excel matrix." | Gaps such as a missing sustainability plan, audit timing, and the limit on in-kind match are found and flagged with `[ADD: ...]`, not invented. |
-| Impact Report Builder | "Using the sample program notes, build a funder report for the Harbor County Workforce Board. Include the evidence register and the claims the data can't support. Then create the Word report." | Outcomes lead, every claim traces to the data, sample sizes are shown, and unsupported claims get safer wording. |
-| Agreement Reviewer | "Review the sample grant agreement. List obligations with due dates, flag risks, and draft questions for the funder. Then create the Excel workbook and calendar file." | Each obligation cites its clause, and every due date shows its calculation. |
+| Grant Proposal Studio | "Using the sample RFP and program brief, build the compliance matrix, list eligibility risks, and outline the proposal against the scoring criteria." | Gaps such as a missing sustainability plan, audit timing, and the limit on in-kind match are found and flagged with `[ADD: ...]`, not invented. |
+| Impact Report Builder | "Using the sample program notes, build a funder report for the Harbor County Workforce Board. Include the evidence register and the claims the data can't support." | Outcomes lead, every claim traces to the data, sample sizes are shown, and unsupported claims get safer wording. |
+| Agreement Reviewer | "Review the sample grant agreement. List obligations with due dates, flag risks, and draft questions for the funder." | Each obligation cites its clause, and every due date shows its calculation. |
 | AI Policy Coach | "Show me a sample policy and governance plan for a fictional nonprofit." | Clear allowed and prohibited uses, data rules, human review, incident reporting, and named owners. |
 | IT Help Desk | "I got a new phone and my Authenticator app is on the old one, which I no longer have. What do I do?" | Safe numbered steps first, then an offer to create a ticket summary for IT. It never asks for a password or code. |
 | Board Packet Builder | "Show me how you work using the sample board files." | 5 flagged variances, net year to date of -$109,100, and 2.1 months of cash, with the same numbers in all three files. Allow 5 to 20 minutes and about 160 to 185 credits. |
@@ -117,8 +123,8 @@ See a finished result before you use your own files. In Copilot Studio, select *
 | Agent | Upload | Then ask |
 |---|---|---|
 | Grant Proposal Studio | A funder's RFP or guidelines | "Build the compliance matrix and list our eligibility risks." Then "Outline the proposal," or upload a draft and ask "Score it and give me the 3 fixes worth the most points." |
-| Impact Report Builder | Program notes, outcome data, or survey results | "Build a funder report for [funder] for [period]." Then "Which claims aren't supported?" and "Create the Word document." |
-| Agreement Reviewer | A grant agreement, contract, subaward, or MOU | "Review this agreement." Then "Create the Excel workbook and calendar file." |
+| Impact Report Builder | Program notes, outcome data, or survey results | "Build a funder report for [funder] for [period]." Then "Which claims aren't supported?" |
+| Agreement Reviewer | A grant agreement, contract, subaward, or MOU | "Review this agreement." Then "List every deadline in date order." |
 | AI Policy Coach | Nothing, or your current policy | "Can staff use public AI tools for donor letters?", "Help me create an AI acceptable use policy," or "What's missing from our policy?" |
 | IT Help Desk | Nothing | Any Microsoft 365 question, such as "How do I move my Authenticator to a new phone?" |
 | Board Packet Builder | This quarter's financials, ED report, committee notes, and last minutes | "Build our board packet." You get a Word packet, a slide deck, and an Excel dashboard, with the numbers matched across all three. |
@@ -146,7 +152,7 @@ Review every output before you submit, sign, or publish it. Get qualified review
 | "Sorry, I couldn't finish that", or a "ContentFiltered" error | The file may contain hidden text or content your organization's safety settings block. Try another file, or paste the section you need. |
 | The agent says it couldn't read my file | Try a PDF or a shorter excerpt. |
 | A file link asks me to sign in | Generated files open from Microsoft 365. Sign in with your work account; you need OneDrive. |
-| No Word, Excel, or calendar file | Ask again ("Create the file now"). If it still fails, ask your admin whether code interpreter is turned on for this environment. |
+| A Download link doesn't open, or a request for a file fails | This is a known limitation in v1.0.7 for Grant Proposal Studio, Impact Report Builder, Agreement Reviewer, and AI Policy Coach. Ask for the results in the chat, then copy them into Word or Excel. A fix is coming in v1.0.8. |
 | Board Packet Builder won't run or shows a model error | Your admin needs to turn on external models and allow Anthropic (see "Before you start"). You can also select a different model on the agent's **Build** tab; we tested with Claude Opus 5.5, so results may differ. Some Anthropic models have different data terms, so check with your admin before you switch. |
 | Teams install doesn't work | Your organization may block Power Platform apps in Teams ([Teams prerequisites](https://learn.microsoft.com/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#prerequisites)). |
 | A newer version won't replace the old one | Import the new `.zip` over the existing agent; it updates in place. Then select **Publish**. |
